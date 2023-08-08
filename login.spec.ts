@@ -19,7 +19,7 @@ test("login test demo", async({browser})=>{
    // await page.screenshot({path: 'screenshots.png', fullPage:true });
    // await page getByText('E-Mail Address')
    // await page.getByPlaceholder('E-Mail Address').type("priyanair2606982gmail.com"); -- alternate for placeholder
-    await page.getByRole("textbox", {name:"E-Mail Address"}).fill("priyanair2606982gmail");
+    await page.getByRole("textbox", {name:"E-Mail Address"}).fill("priyamanikandan1998@gmail.com");
    // await page.screenshot({path: 'screenshots.png', fullPage:true });
     await page.getByPlaceholder('Password').fill("changetest");
     await page.getByRole('button', { name: 'Login' }).click();
