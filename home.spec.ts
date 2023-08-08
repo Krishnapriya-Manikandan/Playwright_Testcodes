@@ -76,7 +76,7 @@ test.describe('Home', () => {
         //took from let path extension
        const searchicon =  await page.locator('//div[@id="header-action"]/ul[1]/li[1]/a[1]/i[1]');
        await expect(searchicon).toBeVisible();
-       
+       await expect(searchicon).toBeVisible();  // just duplicated this line for learning GIT, pls delete later before running
     })
     
 
