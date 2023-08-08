@@ -24,6 +24,6 @@ test("login test demo", async({browser})=>{
     await page.getByPlaceholder('Password').fill("test");
     await page.getByRole('button', { name: 'Login' }).click();
     await page.waitForTimeout(5000);
-    //await page.screenshot({path: 'screenshots.png', fullPage:true }); ///to take screenshot(last page)
+    await page.screenshot({path: 'screenshots.png', fullPage:true }); ///to take screenshot(last page)
 })
 
